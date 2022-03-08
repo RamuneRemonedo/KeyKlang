@@ -1,14 +1,10 @@
-﻿using SharpDX.XAudio2;
-using System.Media;
+﻿using System.Media;
 using System.Reflection;
 
 namespace KeyKlang
 {
     public partial class KeyKlang : Form
     {
-
-        private static XAudio2 xaDevice = new XAudio2();
-
         public KeyKlang()
         {
 
